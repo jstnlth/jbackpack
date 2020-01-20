@@ -223,6 +223,8 @@ public class JBackpack {
     }
 
     private static void checkJavaVersion() {
+    }
+    private static void checkJavaVersionBroken() {
         String javaVersion = System.getProperty("java.version");
         String[] tokens = javaVersion.split("\\.");
         int majorVersion = Integer.parseInt(tokens[0]);

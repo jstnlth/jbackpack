@@ -20,6 +20,25 @@ jbackpack (0.9.6-13) lernstick-8; urgency=medium
 
  -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 14 Jan 2017 18:06:39 +0100
 
+jbackpack (0.9.6-12g) focal; urgency=medium
+
+  * make checkJavaVersion an empty function since it only prevented starting.
+  * add Keywords=backup;restore; to .desktop
+  * dch --newversion 0.9.6-12g
+
+ -- Justin Luth <jluth@mail.com>  Sat, 11 Jan 2020 17:13:40 +0300
+
+jbackpack (0.9.6-12e) bionic; urgency=medium
+
+  * downloaded from https://github.com/imedias/jbackpack
+  * debian/rules add desktop to $(DESTDIR)/usr/share/applications
+  * mark as precise instead of xenial to try and get launchpad to compile
+  * dch --newversion 0.9.6-12e
+  * debuild -S
+  * dput ppa:wasta-linux/wasta-testing jbackpack_0.9.6-12e_source.changes
+
+ -- Justin Luth <jluth@mail.com>  Tue, 18 Oct 2016 14:54:49 +0300
+
 jbackpack (0.9.6-12) lernstick-8; urgency=medium
 
   [ Ronny Standtke ]

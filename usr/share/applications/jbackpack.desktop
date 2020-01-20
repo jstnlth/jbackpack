@@ -5,6 +5,7 @@ Icon=jbackpack
 GenericName=Backup & Restore
 GenericName[de]=Datensicherung & Wiederherstellung
 Name=JBackpack
+Keywords=backup;restore;
 StartupNotify=true
 StartupWMClass=ch-fhnw-jbackpack-JBackpack
 Type=Application
