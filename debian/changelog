@@ -1,3 +1,9 @@
+jbackpack (0.9.6.19f) noble; urgency=medium
+
+  * use default-jre instead of java-runtime
+
+ -- Justin Luth <jluth@mail.com>  Fri, 09 Aug 2024 20:46:46 -0400
+
 jbackpack (0.9.6.19e) noble; urgency=medium
 +
 +  * set upstream to https://github.com/imedias/jbackpack
